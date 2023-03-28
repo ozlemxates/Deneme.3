@@ -1,4 +1,7 @@
-
+body {
+    font-family: 'Alkatra', cursive;
+    font-family: 'PT Serif', serif;
+}
 .location {
     text-align: center
 }
@@ -11,6 +14,10 @@
     color: rgb(25, 154, 25)
 
 }
+
+h4 {
+    color: rgb(187, 78, 187)
+}
 .fs-45 {
     font-size: 45px;
 }
@@ -18,6 +25,19 @@
 .fs-35 {
     font-size: 35px;
 }
+.fs-25 {
+    font-size: 25px;
+}
+.toup { position: relative; top: -45px;
 
+}
 
+.listitems {
+    list-style-type: none;
+    display: inline-block;
+    width: 200px; 
+    height:100px;
+    position: relative; top: -45px;
+}
 
+div {position: relative; top: -115px;}
